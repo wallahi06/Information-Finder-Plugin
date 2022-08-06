@@ -1,0 +1,20 @@
+{"intents": [
+        {"tag": "library",
+         "pattern": ["create a library of images", "create a library named images", "create dictonary with images", "create a library named images"],
+         "responses": ["mkdir images"],
+        },
+         {"tag": "library",
+         "pattern": ["create a library of files", "create a library named files", "create a dictionary with files", "create a library named files"],
+         "responses": ["mkdir files"],
+        },        
+        {"tag": "library",
+         "pattern": ["create a library of important_files", "create a library named important_files", "create a dictionary with important_files", "create a library named important_files"],
+         "responses": ["mkdir important_files"],
+        },        
+        {"tag": "library",
+         "pattern": ["create a library of documents", "create a library named documents", "create a dictionary with documents", "create a library named documents"],
+         "responses": ["mkdir documents"],
+        },        
+        ]
+}
+
